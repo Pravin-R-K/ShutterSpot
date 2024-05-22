@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header .container > a {
+    font-family: "Anta", sans-serif;
+    cursor: pointer;
+}
+
+#mynavbar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#support i:hover {
+    cursor: pointer;
+    color: #0dcaf0;
+}
+
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 1);
+}
+
